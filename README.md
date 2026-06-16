@@ -161,3 +161,13 @@ Dell OptiPlex 7070 的 BIOS 默认将 DVMT Pre-Allocated 锁定为 32MB，这会
 - 如不确定 `0x8DC` 是否适用于你的 BIOS 版本，请先用 `setup_var 0x8DC` 测试，若地址有效则会返回当前值
 - 设置后建议重新启动进入 BIOS 确认 "Primary Display" 设为 "Intel HD Graphics"
 - 完成 DVMT 修改后，如果出现图形异常，可在 config.plist 中调整 `framebuffer-stolenmem` 的值或删除该补丁
+
+---
+
+## 📄 许可证
+
+MIT License - 详见 [LICENSE](LICENSE)
+
+> ⚠️ 本教程仅供学习和研究使用
+
+
